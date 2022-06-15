@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* removed header class after changing html section to <header> from a <div>*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +16,19 @@ header {
     color: #ffffff;
 }
 
-header h1 {
+/* created new class for header h1. consolidated multiple h1 blocks into one class */
+.title {
     display: inline-block;
     font-size: 48px;
 }
 
-header h1 .seo {
+/* removed unnecessary attributes before this class */
+.seo {
     color: #d9dcd6;
 }
 
-header nav {
+/* created section for nav and removed ".header div/ul */
+nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,13 +36,11 @@ header nav {
     font-size: 20px;
 }
 
-header nav ul {
-    list-style-type: none;
-}
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
+    list-style-type: none;
 }
 
 a {
@@ -50,6 +52,7 @@ p {
     font-size: 16px;
 }
 
+/* added title alt image attribute in html files */
 .hero {
     height: 800px;
     width: 100%;
@@ -70,24 +73,25 @@ p {
 }
 
 .content {
-    width: 70%;
+    width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
 .benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
     float: right;
     width: 20%;
-    margin-right: 20px;
-    padding: 18.5px;
-    clear: both;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
 
+/* consolidated multiple classes into one */
 .benefit-lead, .benefit-brand, .benefit-cost{
-    margin-bottom: 20px;
+    margin-bottom: 32px;
     color: #ffffff;
 }
 
