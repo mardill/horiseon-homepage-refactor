@@ -125,7 +125,7 @@ p {
     font-size: 36px;
 }
 
-
+/* dont need .footer class can use footer after changing to footer tag */
 footer {
     padding: 30px;
     clear: both;
