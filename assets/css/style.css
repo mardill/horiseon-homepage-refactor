@@ -72,10 +72,35 @@ p {
     margin-left: 25px;
 }
 
+/* consolidated multiple classes into one and combined separated classes from
+.content section into .content */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-bottom: 32px;
+    color: #ffffff;
+
+}
+
+/* reorganize to have content ids under main content section for easier reading */
+
+#search-engine-optimization, #social-media-marketing,#online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
+    max-height: 200px;
+}
+
+#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -89,12 +114,6 @@ p {
     background-color: #2589bd;
 }
 
-/* consolidated multiple classes into one */
-.benefit-lead, .benefit-brand, .benefit-cost{
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -106,24 +125,7 @@ p {
     max-width: 150px;
 }
 
-#search-engine-optimization, #social-media-marketing,#online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 
-
-#search-engine-optimization img, #online-reputation-management img, #social-media-marketing img {
-    max-height: 200px;
-}
-
-#search-engine-optimization h2, #online-reputation-management h2, #social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 /* dont need .footer class can use footer after changing to footer tag */
 footer {
