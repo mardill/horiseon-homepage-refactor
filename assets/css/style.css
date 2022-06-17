@@ -78,8 +78,6 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
-    margin-bottom: 32px;
-    color: #ffffff;
 }
 
 /* reorganize to have content ids under main content section for easier reading */
@@ -111,6 +109,11 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+.benefit-lead, .benefit-brand,.benefit-cost{
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
